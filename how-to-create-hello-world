@@ -1,0 +1,16 @@
+1. create a repository via web page https://github.crafet/Hello-World
+2. in the page, copy the repository address, https://github.com/crafet/Hello-World.git
+3. in the terminal, kick code as following:
+	mkdir Hello-World	## create local reposity dir
+	cd Hello-World
+	touch README.md
+	echo "readme" >> README.md
+	git init			## init the repository
+	git add .			## add all the file under the git version control
+	git commit -m"add commit description"
+	git remote add origin https:// github.com/crafet/Hello-World.git
+	git diff			## not necessary,but recommend
+	git push -u origin master
+
+4. done
+5. use "git add xx" whenever xx is modified, it seems different from svn
